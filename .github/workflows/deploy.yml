@@ -21,7 +21,7 @@ jobs:
     - name: Setup Node.js           # 安装 Node.js 环境
       uses: actions/setup-node@v2
       with:
-        node-version: 'v24'           # 设置 Node.js 版本
+        node-version: 'v22'           # 设置 Node.js 版本
 
     # 步骤 3：安装依赖
     - name: Install dependencies    # 安装 Hexo 和相关依赖
