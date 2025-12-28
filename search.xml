@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>新的开始</title>
+      <link href="//post/new-beginning-zbnxfx.html"/>
+      <url>//post/new-beginning-zbnxfx.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h1><h2 id="1-重构"><a href="#1-重构" class="headerlink" title="1.重构"></a>1.重构</h2><p>当你看到这篇文章的时候，说明我的博客完成了重构（使用Github Action + Hexo的组合），虽然说界面看起来跟之前用WordPress时差不多，但是确实是不一样了。至于重构的原因很简单：降本增效（确信），之前为了运行WordPress，我在服务器方面的支出是很高的（每个月支出一张月卡的钱），尤其是今年重构服务器网络架构之后新增了另一台国内服务器做delay server，荷包可见的压力越来越大了，所以我决定让Github来托管我的博客，这是免费的。</p><p>‍</p><p>为了本次项目的重构，我花了一个晚上外加一个早上来学（cai）习（keng），这其中包括git的使用，Github Action的编写，最后也是成功部署了，虽然道路是曲折的，但前途是光明的（高数老师名言.jpg）</p><p>‍</p><p>目前的写作流程就是：思源笔记编写markdown文件，用发布工具push到Hexo的仓库，最后Github Action生成前端页面，相较于WordPress来说还是比较麻烦的，尤其是在前端调试方面，不过也正是因为如此，Hexo没有WordPress的臃肿，各取所需罢了。</p><p>‍</p><h2 id="2-画饼"><a href="#2-画饼" class="headerlink" title="2.画饼"></a>2.画饼</h2><p>之前看过我的博客的Bro都知道我有一个栏目是“炉边夜话”，在本次项目中也会重构，叫“炉边夜话新编”，至于选题的话我也需要想想。当然，服务器的技术分享我也会写的，总之先画饼</p><p>‍</p><h3 id="3-结尾"><a href="#3-结尾" class="headerlink" title="3.结尾"></a>3.结尾</h3><p>还有三天就要到2026了，新的一年，新的开始。对于步入大学的我来说，也是人生的新起点。我想。也是时候重构自己的人生态度和思想了。</p>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Hello World</title>
       <link href="/2025/12/28/hello-world/"/>
       <url>/2025/12/28/hello-world/</url>

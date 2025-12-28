@@ -3,16 +3,20 @@
 <html class="article-header-style-default">
 <head>
 	
-	<title>归档 : 2025/12 - 鸽子林的博客</title>
+	<title>新的开始 - 鸽子林的博客</title>
 	<meta charset="utf-8">
 	
 		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 	
-	<meta property="og:type" content="website">
-<meta property="og:title" content="鸽子林的博客">
-<meta property="og:url" content="http://example.com/archives/2025/12/index.html">
+	<meta name="description" content="新的开始1.重构当你看到这篇文章的时候，说明我的博客完成了重构（使用Github Action + Hexo的组合），虽然说界面看起来跟之前用WordPress时差不多，但是确实是不一样了。至于重构的原因很简单：降本增效（确信），之前为了运行WordPress，我在服务器方面的支出是很高的（每个月支出一张月卡的钱），尤其是今年重构服务器网络架构之后新增了另一台国内服务器做delay server，">
+<meta property="og:type" content="article">
+<meta property="og:title" content="新的开始">
+<meta property="og:url" content="http://example.com/post/new-beginning-zbnxfx.html">
 <meta property="og:site_name" content="鸽子林的博客">
+<meta property="og:description" content="新的开始1.重构当你看到这篇文章的时候，说明我的博客完成了重构（使用Github Action + Hexo的组合），虽然说界面看起来跟之前用WordPress时差不多，但是确实是不一样了。至于重构的原因很简单：降本增效（确信），之前为了运行WordPress，我在服务器方面的支出是很高的（每个月支出一张月卡的钱），尤其是今年重构服务器网络架构之后新增了另一台国内服务器做delay server，">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2025-12-28T14:16:19.000Z">
+<meta property="article:modified_time" content="2025-12-28T14:48:13.000Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary">
 
@@ -428,15 +432,6 @@
 
 <div class="page-information-card-container">
 	
-		
-<div class="page-information-card card bg-gradient-secondary shadow-lg border-0">
-	<div class="card-body">
-		<h3 class="text-black">归档 : 2025/12 </h3>
-		
-	</div>
-</div>
-
-	
 </div>
 
 <div id="sidebar_mask"></div>
@@ -463,18 +458,39 @@
 		<div id="leftbar_part2" class="widget widget_search card bg-white shadow-sm border-0">
 			<div id="leftbar_part2_inner" class="card-body">
 				
-				<div class="nav-wrapper" style="padding-top: 5px; display:none; ">
+				<div class="nav-wrapper" style="padding-top: 5px;">
 	                <ul class="nav nav-pills nav-fill" role="tablist">
 						
+							<li class="nav-item sidebar-tab-switcher">
+								<a class="active show" id="leftbar_tab_catalog_btn" data-toggle="tab" href="#leftbar_tab_catalog" role="tab" aria-controls="leftbar_tab_catalog" no-pjax>文章目录</a>
+							</li>
+						
 						<li class="nav-item sidebar-tab-switcher">
-							<a class="active show" id="leftbar_tab_overview_btn" data-toggle="tab" href="#leftbar_tab_overview" role="tab" aria-controls="leftbar_tab_overview" no-pjax>站点概览</a>
+							<a class="" id="leftbar_tab_overview_btn" data-toggle="tab" href="#leftbar_tab_overview" role="tab" aria-controls="leftbar_tab_overview" no-pjax>站点概览</a>
 						</li>
 	                </ul>
 				</div>
 				<div>
 					<div class="tab-content" style="padding: 10px 10px 0 10px;">
 						
-						<div class="tab-pane fade text-center active show" id="leftbar_tab_overview" role="tabpanel" aria-labelledby="leftbar_tab_overview_btn">
+							<div class="tab-pane fade active show" id="leftbar_tab_catalog" role="tabpanel" aria-labelledby="leftbar_tab_catalog_btn">
+								<div id="leftbar_catalog"></div>
+								<script type="text/javascript">
+									$(function () {
+										$(document).headIndex({
+											articleWrapSelector: '#post_content',
+											indexBoxSelector: '#leftbar_catalog',
+											subItemBoxClass: "index-subItem-box",
+											itemClass: "index-item",
+											linkClass: "index-link",
+											offset: 80,
+										});
+									})
+								</script>
+								
+							</div>
+						
+						<div class="tab-pane fade text-center" id="leftbar_tab_overview" role="tabpanel" aria-labelledby="leftbar_tab_overview_btn">
 							<img id="leftbar_overview_author_image" src="/assets/img/2.jpg" class="img-fluid rounded-circle shadow-sm" style="width: 100px;" alt="avatar">
 							<h6 id="leftbar_overview_author_name">鸽子林</h6>
 							<nav class="site-state">
@@ -556,9 +572,8 @@
 	<main id="main" class="site-main" role="main">
 		
 		
-		
-				
-	<article class="post card bg-white shadow-sm border-0 ">
+			
+	<article class="post post-full card bg-white shadow-sm border-0 ">
 	<header class="post-header text-center">
 		
 		<a class="post-title" href="/post/new-beginning-zbnxfx.html">新的开始</a>
@@ -575,7 +590,7 @@
 							<div class="post-meta-devide">|</div>
 						
 						<div class="post-meta-detail post-meta-detail-words">
-							<i class="fa fa-book" aria-hidden="true"></i>
+							<i class="fa fa fa-book" aria-hidden="true"></i>
 							<span id="busuanzi_container_page_pv">
 								阅读<span id="busuanzi_value_page_pv"></span>次
 							</span>
@@ -601,78 +616,140 @@
 		
 	</header>
 
-	<div class="post-content">
-		
-			
-				新的开始1.重构当你看到这篇文章的时候，说明我的博客完成了重构（使用Github Action + Hexo的组合），虽然说界面看起来跟之前用WordPress时差不多，但是确实是不一样了。至于重构的原因很简单：降本增效（确信），之前为了运行WordPress，我在服务器方面的支出是很高的（每个月支出一张月卡的钱），尤其是今年重构服务器网络架构之后...
-			
-		
+	<div class="post-content" id="post_content">
+		<h1 id="新的开始"><a href="#新的开始" class="headerlink" title="新的开始"></a>新的开始</h1><h2 id="1-重构"><a href="#1-重构" class="headerlink" title="1.重构"></a>1.重构</h2><p>当你看到这篇文章的时候，说明我的博客完成了重构（使用Github Action + Hexo的组合），虽然说界面看起来跟之前用WordPress时差不多，但是确实是不一样了。至于重构的原因很简单：降本增效（确信），之前为了运行WordPress，我在服务器方面的支出是很高的（每个月支出一张月卡的钱），尤其是今年重构服务器网络架构之后新增了另一台国内服务器做delay server，荷包可见的压力越来越大了，所以我决定让Github来托管我的博客，这是免费的。</p>
+<p>‍</p>
+<p>为了本次项目的重构，我花了一个晚上外加一个早上来学（cai）习（keng），这其中包括git的使用，Github Action的编写，最后也是成功部署了，虽然道路是曲折的，但前途是光明的（高数老师名言.jpg）</p>
+<p>‍</p>
+<p>目前的写作流程就是：思源笔记编写markdown文件，用发布工具push到Hexo的仓库，最后Github Action生成前端页面，相较于WordPress来说还是比较麻烦的，尤其是在前端调试方面，不过也正是因为如此，Hexo没有WordPress的臃肿，各取所需罢了。</p>
+<p>‍</p>
+<h2 id="2-画饼"><a href="#2-画饼" class="headerlink" title="2.画饼"></a>2.画饼</h2><p>之前看过我的博客的Bro都知道我有一个栏目是“炉边夜话”，在本次项目中也会重构，叫“炉边夜话新编”，至于选题的话我也需要想想。当然，服务器的技术分享我也会写的，总之先画饼</p>
+<p>‍</p>
+<h3 id="3-结尾"><a href="#3-结尾" class="headerlink" title="3.结尾"></a>3.结尾</h3><p>还有三天就要到2026了，新的一年，新的开始。对于步入大学的我来说，也是人生的新起点。我想。也是时候重构自己的人生态度和思想了。</p>
+
 	</div>
+
+	
+
+	
 
 	
 </article>
 
-
-	<article class="post card bg-white shadow-sm border-0 ">
-	<header class="post-header text-center">
-		
-		<a class="post-title" href="/2025/12/28/hello-world/">Hello World</a>
-		<div class="post-meta">
-			
-						
-						<div class="post-meta-detail post-meta-detail-time">
-							<i class="fa fa-clock-o" aria-hidden="true"></i>
-							<time title="发布于 2025-12-28 6:48:26 | 编辑于 2025-12-28 6:48:26">2025-12-28 6:48
-							</time>
-						</div>
-					
-						
-							<div class="post-meta-devide">|</div>
-						
-						<div class="post-meta-detail post-meta-detail-words">
-							<i class="fa fa-book" aria-hidden="true"></i>
-							<span id="busuanzi_container_page_pv">
-								阅读<span id="busuanzi_value_page_pv"></span>次
-							</span>
-						</div>
-					
-						
-							<div class="post-meta-devide">|</div>
-						
-						<div class="post-meta-detail post-meta-detail-words">
-							<i class="fa fa-file-word-o" aria-hidden="true"></i>
-							75 字
-						</div>
-					
-						
-							<div class="post-meta-devide">|</div>
-						
-						<div class="post-meta-detail post-meta-detail-readingtime">
-							<i class="fa fa-hourglass-end" aria-hidden="true"></i>
-							1 分钟
-						</div>
-					
-		</div>
-		
-	</header>
-
-	<div class="post-content">
-		
-			
-				Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you ca...
-			
-		
+	<div id="share_container">
+	<div id="share" data-initialized="true">
+		<a class="no-pjax icon-wechat" tooltip="分享到微信">
+			<button class="btn btn-icon btn-success">
+				<span class="btn-inner--icon"><i class="fa fa-weixin"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-douban" tooltip="分享到豆瓣">
+			<button class="btn btn-icon btn-primary" style="background: #209261;border: none;">
+				豆
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-qq" tooltip="分享到 QQ">
+			<button class="btn btn-icon btn-primary" style="background: #2196f3;border: none;">
+				<span class="btn-inner--icon"><i class="fa fa-qq"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-qzone" tooltip="分享到 QQ 空间">
+			<button class="btn btn-icon btn-primary" style="background: #ffc107;border: none;">
+				<span class="btn-inner--icon"><i class="fa fa-star"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-weibo" tooltip="分享到微博">
+			<button class="btn btn-icon btn-warning">
+				<span class="btn-inner--icon"><i class="fa fa-weibo"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-facebook" tooltip="分享到 Facebook">
+			<button class="btn btn-icon btn-primary" style="background: #283593;border: none;">
+				<span class="btn-inner--icon"><i class="fa fa-facebook"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-twitter" tooltip="分享到 Twitter">
+			<button class="btn btn-icon btn-primary" style="background: #03a9f4;border: none;">
+				<span class="btn-inner--icon"><i class="fa fa-twitter"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-telegram" href="https://telegram.me/share/url?url=http://example.com/post/new-beginning-zbnxfx.html&text=新的开始" tooltip="分享到 Telegram">
+			<button class="btn btn-icon btn-primary" style="background: #42a5f5;border: none;">
+				<span class="btn-inner--icon"><i class="fa fa-telegram"></i></span>
+			</button>
+		</a>
+		<a target="_blank" class="no-pjax icon-copy-link" id="share_copy_link" tooltip="复制链接">
+			<button class="btn btn-icon btn-default">
+				<span class="btn-inner--icon"><i class="fa fa-link"></i></span>
+			</button>
+		</a>
 	</div>
+	<button id="share_show" class="btn btn-icon btn-primary" tooltip="分享">
+		<span class="btn-inner--icon"><i class="fa fa-share"></i></span>
+	</button>
+</div>
+<script type="text/javascript">
+	socialShare("#share", {
+	    title : '新的开始',
+	    description : `新的开始1.重构当你看到这篇文章的时候，说明我的博客完成了重构（使用Github Action + ...`,
+	    wechatQrcodeTitle : "分享到微信",
+	    wechatQrcodeHelper : '微信扫描二维码',
+	    source : 'http://example.com/post/new-beginning-zbnxfx.html'
+	});
+	$("#share_show")[0].onclick = function(){
+		$("#share_container").addClass("opened");
+	};
+	$("#share_copy_link")[0].onclick = function(){
+		let input = document.createElement('input');
+		document.body.appendChild(input);
+		input.setAttribute("value", window.location.href);
+		input.setAttribute("readonly", "readonly");
+		input.setAttribute("style", "opacity: 0;mouse-events:none;");
+		input.select();
+		if (document.execCommand('copy')){
+			iziToast.show({
+				title: '链接已复制',
+				message: "链接已复制到剪贴板",
+				class: 'shadow',
+				position: 'topRight',
+				backgroundColor: '#2dce89',
+				titleColor: '#ffffff',
+				messageColor: '#ffffff',
+				iconColor: '#ffffff',
+				progressBarColor: '#ffffff',
+				icon: 'fa fa-check',
+				timeout: 5000
+			});
+		}else{
+			iziToast.show({
+				title: '复制失败',
+				message: "请手动复制链接",
+				class: 'shadow',
+				position: 'topRight',
+				backgroundColor: '#f5365c',
+				titleColor: '#ffffff',
+				messageColor: '#ffffff',
+				iconColor: '#ffffff',
+				progressBarColor: '#ffffff',
+				icon: 'fa fa-close',
+				timeout: 5000
+			});
+		}
+		document.body.removeChild(input);
+	};
+</script>
 
-	
-</article>
 
 
 
 
+<div class="post-navigation card shadow-sm"><div class="post-navigation-item post-navigation-pre"></div><div class="post-navigation-item post-navigation-next"><span class="page-navigation-extra-text">下一篇 <i class="fa fa-arrow-circle-o-right" aria-hidden="true"></i></span><a href="/2025/12/28/hello-world/" rel="next"> Hello World</a></div></div>
 
 
-			
+
+
+		
+		
 		
 		
 
